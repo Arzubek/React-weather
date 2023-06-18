@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+body {
+  min-width: 360px;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+a,
+span,
+button,
+input,
+i,
+select {
+  display: inline-block;
+}
